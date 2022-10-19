@@ -1,0 +1,657 @@
+@font-face {
+  font-family: Nunito Sans; /* Имя шрифта */
+  src: url(NunitoSans-Light.ttf); /* Путь к файлу со шрифтом */
+ }
+ @font-face{
+  font-family: Yeseva One;
+  src: url(YesevaOne-Regular.ttf);
+ }
+body{
+  margin: 0;
+  background-color: #131313;
+}
+
+.header {
+  width:  1438px;
+  height: 93px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: #131313;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.logo_pic{
+  background-image: url(picture.svg);
+  width: 180px;
+  height: 10;
+  padding-top: 37px;
+  padding-left: 3px;
+  }
+.menu_flex{
+  display: flex;
+  width: 474px;
+  justify-content: space-between;
+  list-style-type: none;    
+}
+.menu_flex>li{
+  padding-top: 25px;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #E3B873;
+}
+.button{
+  width: 161px;
+  height: 37px;
+  margin-top: 24px;
+  margin-right: 90px;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+ }
+.section {
+  width: 1438px;
+  height: 707px;
+  background: url(image.jpg) 100% 100% no-repeat; /* Добавляем фон */
+  background-size: cover; /* Масштабируем фон */
+  margin: 0 auto;
+}  
+.backpictext {
+  width: 100%;
+  height: 100%;
+  padding-left: 134px;
+  padding-top: 194px;
+}
+.bigtext{  
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.bigtext_color{
+  color: #E3B873;
+}
+.smalltext{  
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.colorbtn1{
+  width: 207px;
+  height: 51px;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+  border-radius: 2px;
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.colorbtn2{
+  width: 207px;
+  height: 51px;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: inherit;
+  margin-left: 20px;
+}
+.zatemnitel{
+  width: 1438px;
+  height: 707px;
+  background:  rgba(0, 0, 0, 0.6);
+  margin-top: -901px;
+
+}
+.section2{
+  margin-top: 107px;
+
+  display: grid;
+  gap: 50px;
+  width: 1440px;
+  height: 1074;
+  background-color: #131313;
+  
+  
+  grid-template-rows: 442px 679px;;
+  grid-template-columns: 442px 679px;
+  
+
+
+
+  /* ! */
+/*  align-items: center;*/
+  grid-template-areas:
+  "A B";
+  color: white;
+  
+
+  /* ! */
+  /*justify-items : end;*/
+    /* ! */
+    justify-content: center;
+    align-content : start;
+
+  
+
+}
+.A{
+  grid-area: A;
+
+  display: grid;
+}
+.B{
+  grid-area: B;
+
+  display: grid;
+}
+.wrap_nav{
+  width: 620px;
+  
+}
+.nav2{
+  padding: 0;
+  padding-top: 0;
+  display: flex;
+  
+  list-style-type: none;
+  justify-content: space-between;
+}
+.wrap_nav2{
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.wrap_nav2_color{
+  color: #E3B873;
+  text-decoration: underline;
+}
+
+.wrap_pic2{
+  width: 679px;
+  height: 482;
+  margin-top: -500px;
+}
+.a_text{
+padding-top: 50px;
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+
+color: #E3B873;
+}
+.p_text{
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+
+color: #FFF;
+
+}
+.wrap_text_p{
+  display: inline;
+  margin-top: 0px;;
+}
+.block_flex{
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  margin-top: 20px;
+}
+.blockn{
+  width: 40%;
+  height: 40%;
+}
+.city{
+  
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+
+color: #E3B873;
+}
+.city_text{
+  margin-top: 0px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+}
+.left_strelki{
+color: #FFF;
+display: inline-block;
+margin-left: 15px;
+font-size: 40px;
+}
+.right_strelki{
+  color: #FFF;
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 40px;
+  text-align: unset;
+}
+.poziciya{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:dimgray;
+  margin-left: 15px;
+}
+.poziciya_color{
+  background-color: #FFF;
+}
+.strelki{
+  margin-left: -225px;
+}
+.onlinecontrol{
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: -500px;
+}
+.vector{
+  text-align: center;
+  display: inline-block;
+}
+.poloska{
+  margin-left: 570px;
+  display: inline-block;
+  height: 1.54px;
+  width: 32px;
+  background: #E3B873;
+border-radius: 30px;
+}
+.poloska2{
+  margin-left: -10px;
+  display: inline-block;
+  height: 1.54px;
+  width: 32px;
+  background: #E3B873;
+border-radius: 30px;
+}
+.wrap_videopic{
+  display: inline-block;
+  width: 817px;
+  height: 434px;
+  margin-left: 250px;
+
+background-image: url(image_6.png);
+}
+.zatemnitel2{
+  width: 817px;
+  height: 434px;
+  background:  rgba(0, 0, 0, 0.6);
+  margin-top: -430px;
+}
+.elipce{
+  display: inline-block;
+  border-radius: 50%;
+  background: #E3B873;
+  box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+  height: 85px;
+  width: 85px;
+  
+  margin: 170px 367px 170px 365px;
+  
+  color:#FFF;
+  font-size: 35px;
+  
+}
+
+.eclips_text{
+  border-radius: 50%;
+  display:inline-block;
+  padding: 28px 28px;
+  background: transparent;
+}
+.section5{
+  height: 1466px;
+  width: 100%;
+  background-color: #FFF;
+  margin-top: -208px;
+  padding-top: 270.5px;
+}
+.poloska3{
+  margin: 0 auto;
+  width: 55px;
+ height: 1.54px;
+  
+background: #E3B873;
+border-radius: 30px;
+}
+.text_pod_poloskoy{
+  width: 681px;
+  height: 130.91px;
+  
+  
+  margin: 0 auto;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  
+  color: #363636;
+}
+
+.forma{
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 0 auto;
+  height: 51px;
+  width: 769px;
+padding-top: 100px;
+}
+.type-1, .type-2{
+display: block;
+border:0px;
+border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+
+color: #363636;
+}
+.type-3{
+  
+display: block;
+border: 0px;
+background: #E3B873;
+box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+border-radius: 2px;
+width: 200px;
+height: 51px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+}
+.forma>div>label{
+display: block;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: rgba(54, 54, 54, 0.5);
+}
+
+
+.chk{
+  width: 286px;
+  height: 18px;
+  margin: 0 auto;
+  padding-top: 37px;
+
+  
+}
+.checkbox {
+  margin-bottom: 0.2em;
+}
+
+/* для элемента input c type="checkbox" */
+.custom-checkbox>input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox>span {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.custom-checkbox>span::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 1px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+/* стили при наведении курсора на checkbox */
+.custom-checkbox>input:not(:disabled):not(:checked)+span:hover::before {
+  border-color: #E3B873;
+}
+
+/* стили для активного чекбокса (при нажатии на него) */
+.custom-checkbox>input:not(:disabled):active+span::before {
+  background-color: #E3B873;
+  
+  border-color: #E3B873;
+  
+}
+
+/* стили для чекбокса, находящегося в фокусе */
+.custom-checkbox>input:focus+span::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox>input:focus:not(:checked)+span::before {
+  border-color: #E3B873;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox>input:checked+span::before {
+  border-color: #E3B873;
+  background-color: #E3B873;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+.chk_text{
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 163.68%;
+/* or 23px */
+color: #181818;
+
+}
+.text_vector{
+display: block;  
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 100px;
+color: #181818;
+}
+.section7{
+  display: flex;
+  width: 1236px;
+  height: 608px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.div1{
+  display: inline-block;
+  width: 392px;
+  height: 421px;
+  background-image: url(imagee.jpg);
+  padding-bottom: 0px;
+
+}
+.div2{
+  display: inline-block;
+  width: 392px;
+  height: 421px;
+  background-image: url(image_3.jpg);
+  background-color: gray;
+  padding-bottom: 0px;
+}
+.div3{
+  display: inline-block;
+  width: 392px;
+  height: 421px;
+  background-image: url(image4.jpg);
+  background-color: gray;
+;
+}
+.padding_niz{
+  padding: 0;
+}
+.div1_into{
+  margin-top: 300px;
+  margin-left: 30px;
+  width: 330px;
+  height: 286px;
+  background-color: #FFF;
+
+}
+.div2_into{
+  margin-top: 300px;
+  margin-left: 30px;
+  width: 330px;
+  height: 286px;
+  background-color: #FFF;
+  padding-bottom: 0px;
+}
+.div3_into{
+  margin-top: 300px;
+  margin-left: 30px;
+  width: 330px;
+  height: 286px;
+  background-color: #FFF;
+  padding-bottom: 0px;
+}
+.div_text_color{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+
+  color: #959595;
+}
+.knopka_niz1{
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  margin-left: 0px;
+  margin-top: 50px;
+  width: 228px;
+  height: 54px;
+
+}
+.knopka_niz2{
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  margin-left: 0px;
+  margin-top: 25px;
+  width: 228px;
+  height: 54px;
+
+}
+.knopka_niz3{
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  margin-left: 0px;
+  margin-top: 50px;
+  width: 228px;
+  height: 54px;
+
+}
+.nadpis_na_knopke{
+  display: inline-block;
+  text-align: center;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.text_into{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #363636;
+padding-left: 30px;
+
+}
+.div1_into, .div2_into, .div3_into{
+  padding-top: 40px;
+}
